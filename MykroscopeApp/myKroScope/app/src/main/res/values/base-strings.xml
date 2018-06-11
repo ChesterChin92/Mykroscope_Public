@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">MykroScope</string>-->
+    <string name="intro_message">
+        <![CDATA[
+
+
+           MykroScope Project
+
+
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Mykroscope</string>
+    <string name="search_title">Search myKroScope...</string>
+    <string name="search_view">Enter search</string>
+    <string name="scalePlus">Scale +</string>
+    <string name="scaleMinus">Scale -</string>
+    <string name="zoomLevel">Zoom level : 0</string>
+    <string name="gallery">Gallery</string>
+    <string name="picture">Capture</string>
+    <string name="toggleScale">Toggle Scale</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="share">Share</string>
+    <string name="hintCellType">Cell</string>
+    <string name="hintDescription">Description</string>
+
+    <string name="startScale">--0</string>
+    <string name="centerScale">----0.5</string>
+    <string name="endScale">----1</string>
+    <string name="scale">--</string>
+
+
+    <string-array name="category">
+        <item>Human Cell</item>
+        <item>Animal Cell</item>
+        <item>Plant Cell</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="cellTypeHuman">
+        <item>Cheek Cell</item>
+        <item>Hair Cell</item>
+        <item>Red Blood Cell</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cellTypePlant">
+        <item>Leaf Cell</item>
+        <item>Flower Cell</item>
+        <item>Stem Cell</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cellTypeAnimal">
+        <item>Hair Cell</item>
+        <item>Skin Cell</item>
+        <item>Blood Cell</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cellTypeOthers">
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="postToPages">
+        <item>Mykroscope Page</item>
+        <item>My own facebook &amp; Mykroscope page</item>
+    </string-array>
+
+
+</resources>

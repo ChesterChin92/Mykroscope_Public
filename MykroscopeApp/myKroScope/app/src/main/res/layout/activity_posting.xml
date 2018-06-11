@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/posting_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/cellView"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/cellView" />
+
+
+    <Spinner
+        android:id="@+id/cellType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/category" />
+
+
+    <EditText
+        android:id="@+id/cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cellType"
+        android:hint="@string/hintCellType"
+        android:inputType="textFilter"
+        android:layout_marginTop="20sp"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cell"
+        android:layout_above="@id/shareButton"
+        android:layout_marginTop="20sp"
+        android:hint="@string/hintDescription"
+        android:inputType="textFilter|textMultiLine"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:text="@string/share" />
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "763489940124",
+    "firebase_url": "https://mykroscope-ef08b.firebaseio.com",
+    "project_id": "mykroscope-ef08b",
+    "storage_bucket": "mykroscope-ef08b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763489940124:android:75dd93e519b92fc4",
+        "android_client_info": {
+          "package_name": "com.paul.mykroscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763489940124-lmn7hihr7vjhsqf0ui34699g582t915o.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "763489940124-lmn7hihr7vjhsqf0ui34699g582t915o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIUiDX4pLg2p2pnNMANWtfGmCTvU1eRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763489940124:android:109d96887d15e149",
+        "android_client_info": {
+          "package_name": "com.paul.mykroscopeandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763489940124-lmn7hihr7vjhsqf0ui34699g582t915o.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "763489940124-lmn7hihr7vjhsqf0ui34699g582t915o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIUiDX4pLg2p2pnNMANWtfGmCTvU1eRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.paul.mykroscope.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/control_background">
+
+        <ImageView
+            android:id="@+id/scalePlus"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/ic_plusdisable"
+
+            />
+
+        <ImageView
+            android:id="@+id/scaleMinus"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="5sp"
+            android:src="@drawable/ic_minusdisable" />
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="96sp"
+            android:src="@drawable/ic_grid" />
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:src="@drawable/shuttle2" />
+
+
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="96sp"
+            android:src="@drawable/ic_gallery" />
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/info"-->
+        <!--android:contentDescription="@string/description_info"-->
+        <!--style="@android:style/Widget.Material.Light.Button.Borderless"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical|right"-->
+        <!--android:padding="20dp"-->
+        <!--android:src="@drawable/ic_action_info" />-->
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/control2"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:cropToPadding="true"-->
+        <!--android:scaleType="fitXY"-->
+
+        <!--android:src="@drawable/ruler_cm" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="120dp"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="50px"-->
+        <!--android:text="-&#45;&#45;&#45;&#45;0-1-2-3-4-5-6-7-8-9-10-&#45;&#45;&#45;&#45;" />-->
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="50px"-->
+        <!--android:text="&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;|-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; " />-->
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/scale"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:id="@+id/hyphen00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_above="@id/hyphen01"
+            android:text="@string/startScale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/hyphen02"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/hyphen03"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/hyphen04"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hyphen05"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="-220sp"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220sp"
+            android:text="@string/centerScale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hyphen05"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hyphen06"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hyphen07"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hyphen08"
+            android:text="@string/scale"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hyphen10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/hyphen09"
+            android:text="@string/endScale"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
